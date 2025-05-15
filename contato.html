@@ -7,22 +7,26 @@
   <meta name="author" content="Yasmim Ruescas" />
   <meta name="keywords" content="HTML, CSS, JavaScript" />
   <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg" />
+  <link rel="stylesheet" href="./assets/css/contact.css">
   <title>Contato Yasmim</title>
 </head>
 <body>
 
-  <header>
-    <div id="header_content">
-  <h1>💻 Yasmim - Desenvolvedora Full-Stack & Cibersegurança</h1>
-  <h2>Transformando ideias em soluções seguras, do front-end ao back-end. Protegendo o futuro digital!</h2>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="contato.html">Contato</a></li>
-        </ul>
-      </nav>
+  <header id="header_content">
+  <div class="header_inner">
+    <div id="titulo">
+      <h1 class="h1_text_title">💻 Yasmim - Desenvolvedora Full-Stack & Cibersegurança</h1>
+      <h2>Transformando ideias em soluções seguras, do front-end ao back-end. Protegendo o futuro digital!</h2>
     </div>
-  </header>
+
+    <nav>
+      <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
   <main>
 	<h2>🤝🏻 Vamos nos conectar?</h2>
@@ -33,7 +37,7 @@
 </p>	
 <br><br>
 </section>
-    <section id="contact">
+    <section id="contact" class="flex">
       <form action="#" method="post">
         <label for="nome">Nome:</label>
         <input
@@ -77,7 +81,7 @@
         <button type="submit">Enviar</button>
       </form>
 
-      <article id="mapa">
+      <article id="mapa" class="flex_start">
         <h2>Zona Leste - São Paulo - SP</h2>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29263.701498065482!2d-46.542302015910145!3d-23.533844400920593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce60b11c2730c9%3A0x8f5329071a441cd!2sZona%20Leste%20de%20S%C3%A3o%20Paulo%20-%20Cidade%20Patriarca%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003551-080!5e0!3m2!1spt-BR!2sbr!4v1747192218978!5m2!1spt-BR!2sbr"
@@ -99,14 +103,14 @@
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src="assets/img/linkedin.svg" alt="LinkedIn" />
+        <img class="redes" src="assets/img/linkedin.svg" alt="LinkedIn" />
       </a>
       <a
         href="https://github.com/Yasmimruescas/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src="assets/img/github.svg" alt="GitHub" />
+        <img class="redes" src="assets/img/github.svg" alt="GitHub" />
       </a>
     </section>
 
