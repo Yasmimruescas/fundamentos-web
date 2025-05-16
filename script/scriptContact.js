@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', function () {
   const emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
   const formulario = document.getElementById('formulario');
-  console.log("laksa");
 
   formulario.addEventListener('submit', function(event) {
     event.preventDefault();
